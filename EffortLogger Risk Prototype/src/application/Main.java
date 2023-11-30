@@ -47,7 +47,7 @@ public class Main extends Application {
 			System.out.println("\nUsers in this session:");
 			User[] scrumGroup = new User[numUsers];
 		
-			//set user that signed in to the first in the group and fill rest of group with dummies for testing purposes 
+			//set user that signed in to the first in the group and fill rest of group with dummies for testing purposes  
 			scrumGroup[0] = new User(signInUsername);
 			for(int i = 0; i < numUsers; i++)
 			{
